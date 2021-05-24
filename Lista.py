@@ -22,10 +22,10 @@ class Lista:
         if self.initial == None:
             print("Lista vazia")
         else:
-            aux = self.initial
-            while aux:
-                print(aux.data)
-                aux = aux.next
+            pointer = self.initial
+            while pointer:
+                print(pointer.data)
+                pointer = pointer.next
             print("Tamanho da lista: ", self.size)
 
     def printinverse(self):
