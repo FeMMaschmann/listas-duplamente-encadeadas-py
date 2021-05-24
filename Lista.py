@@ -27,7 +27,6 @@ class Lista:
                 print(aux.data)
                 aux = aux.next
             print("Tamanho da lista: ", self.size)
-            print("-"*15)
 
     def printinverse(self):
         if self.end == None:
@@ -38,4 +37,3 @@ class Lista:
                 print(pointer.data)
                 pointer = pointer.previous
             print("Tamanho da lista: ", self.size)
-            print("-"*15)

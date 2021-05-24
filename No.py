@@ -3,5 +3,3 @@ class No:
         self.data = data
         self.next = None
         self.previous = previous
-
-#Utilize o projeto desenvolvido em aula e adicione a função que armazena os valores em ordem crescente.
